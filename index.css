@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+header {
+  background-color: #3ebf3e;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 3vw;
+}
+
+.nav-bar {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar li {
+  display: inline;
+  margin: 0;
+}
+
+.nav-bar a:link,
+.nav-bar a:visited {
+  color: #ffffff;
+  padding: 0 30px;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url("./images/cambridge-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+}
+
+.container {
+  padding: 2em;
+}
+
+.about {
+  display: flex;
+}
+
+.about img {
+  width: 300px;
+  margin-right: 4em;
+}
