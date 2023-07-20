@@ -134,7 +134,7 @@ header {
 
 .carousel-item {
   display: inline-block;
-  width: calc(100% / 1);
+  width: calc(99.5% / 1);
 }
 
 .carousel-item img {
@@ -177,7 +177,7 @@ header {
   }
 
   .carousel-item {
-    width: calc(100% / 2);
+    width: calc(99.5% / 2);
   }
 }
 
@@ -221,6 +221,6 @@ header {
   }
 
   .carousel-item {
-    width: calc(100% / 3);
+    width: calc(99.5% / 3);
   }
 }
