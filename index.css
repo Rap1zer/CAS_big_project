@@ -42,18 +42,18 @@ header {
   background-image: url("./images/cambridge-hero.jpg");
   background-size: cover;
   background-position: center;
-  height: 70vh;
+  height: min(calc((0.363 * 100vw) + 250px), 70vh);
 }
 
 .container {
-  padding: 2em;
+  padding: 1.7em;
 }
 
-.about {
+.template-1 {
   display: flex;
 }
 
-.about img {
+.template-1 img {
   width: 300px;
   margin-right: 4em;
 }
