@@ -3,22 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
     <title>Title</title>
   </head>
   <body>
     <header>
-      <h1>Come to Cambridge</h1>
-      <ul class="nav-bar">
+      <h1>Immigrant Sob Story</h1>
+      <button class="nav-btn" id="nav-btn">
+        <i class="fa-solid fa-bars fa-2xl" style="color: #ffffff"></i>
+      </button>
+      <ul class="nav-bar invisible" id="nav-bar">
         <li><a href="">Home</a></li>
+        <hr />
         <li><a href="">Attractions</a></li>
+        <hr />
         <li><a href="">idk some other page</a></li>
       </ul>
     </header>
-    <div class="hero"></div>
+    <div class="hero">
+      <h1>Cambridge</h1>
+    </div>
     <section class="container template-1">
+      <img src="./images/placeholder.jpg" alt="placeholder image" />
       <div>
-        <h1>A history of Cambridge</h1>
+        <h1>Template-1 Title</h1>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit.
           Reprehenderit dolor excepturi eos, sint blanditiis omnis quaerat rerum
@@ -32,8 +58,7 @@
           quos!
         </p>
       </div>
-      <img src="./images/map-cambridgeshire.png" alt="map of Cambridge" />
     </section>
-    <section class="container carousel"></section>
+    <section class="container slideshow"></section>
   </body>
 </html>
