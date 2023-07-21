@@ -107,7 +107,6 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 0 0 1em 0;
-  padding: 0 1em;
 }
 
 .carousel-menu h1 {
@@ -124,7 +123,7 @@ header {
 
 .carousel-container {
   background-image: linear-gradient(105deg, #a4e1e1 25%, #9bdbbd);
-  padding: 3em;
+  padding: 3em 1em;
 }
 
 .carousel {
@@ -176,6 +175,10 @@ header {
     order: 2;
   }
 
+  .carousel-menu {
+    padding: 0 1em;
+  }
+
   .carousel-item {
     width: calc(99.5% / 2);
   }
@@ -218,6 +221,10 @@ header {
 
   .template-1 img {
     width: 30%;
+  }
+
+  .carousel-container {
+    padding: 3em;
   }
 
   .carousel-item {
