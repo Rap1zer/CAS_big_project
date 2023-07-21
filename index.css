@@ -21,7 +21,7 @@ header {
   /* position: -webkit-sticky; Safari */
   position: fixed;
   width: 100vw;
-  background-color: #00000032; /* #606c38 */
+  background-color: rgba(0, 0, 0, 0.226);
   color: white;
   display: grid;
   grid-template-columns: auto min-content;
@@ -30,6 +30,10 @@ header {
   padding: 20px 3vw;
   z-index: 999;
   box-shadow: 0 6px 20px 5px #0000005e;
+}
+
+header h1 {
+  font-size: 1.7rem;
 }
 
 .nav-btn {
@@ -56,6 +60,7 @@ header {
 }
 
 .nav-bar li {
+  text-shadow: rgba(0, 0, 0, 0.865) 0 0 3px;
   display: block;
   text-align: center;
   font-size: 1.2rem;
@@ -150,6 +155,11 @@ header {
 
 /*TABLET*/
 @media only screen and (min-width: 768px) {
+  /*HEADER*/
+  header h1 {
+    font-size: 2rem;
+  }
+
   /*HERO*/
   .hero h1 {
     font-size: 4.5rem;
