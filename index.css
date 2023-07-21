@@ -110,10 +110,6 @@ header h1 {
   margin: 0 0 1em 0;
 }
 
-.carousel-menu h1 {
-  font-size: 2.2rem;
-}
-
 .carousel-btn {
   cursor: pointer;
   border: none;
@@ -281,6 +277,10 @@ footer a {
 
   .carousel-container {
     padding: 3em;
+  }
+
+  .carousel-menu h1 {
+    font-size: 2.2rem;
   }
 
   .carousel-item {
