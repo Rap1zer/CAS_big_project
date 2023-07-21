@@ -300,12 +300,18 @@ footer a {
   .social-media-info {
     display: flex;
     flex-direction: column;
+    margin-top: 0;
     margin-right: 2em;
   }
 
   .social-media-link {
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 0.7em;
+  }
+
+  .social-media-link:last-child {
+    margin-bottom: 0;
   }
 
   .social-media-link a {
