@@ -33,7 +33,7 @@ header {
 }
 
 header h1 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 .nav-btn {
@@ -41,10 +41,6 @@ header h1 {
   background: none;
   margin: 0;
   padding: 0;
-}
-
-.nav-btn:hover {
-  background-color: #00000030;
 }
 
 .nav-bar {
@@ -60,10 +56,10 @@ header h1 {
 }
 
 .nav-bar li {
-  text-shadow: rgba(0, 0, 0, 0.865) 0 0 3px;
+  text-shadow: rgba(0, 0, 0, 0.718) 0 0 3px;
   display: block;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 1em 0;
 }
 
@@ -115,7 +111,7 @@ header h1 {
 }
 
 .carousel-menu h1 {
-  font-size: 2.3rem;
+  font-size: 2.2rem;
 }
 
 .carousel-btn {
@@ -157,7 +153,7 @@ header h1 {
 @media only screen and (min-width: 768px) {
   /*HEADER*/
   header h1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   /*HERO*/
@@ -209,8 +205,10 @@ header h1 {
   }
 
   .nav-bar li {
+    text-shadow: none;
     display: inline;
     white-space: nowrap;
+    font-size: 1rem;
     padding: 0 30px;
     margin: 0;
   }
